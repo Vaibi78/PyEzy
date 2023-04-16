@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Functions</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel = "icon" type="snake/png" href = "snake.png" />
+  </head>
+  <body>
+    <header>
+        <h1>PyEzy</h1>
+        <div class="navbar">
+          <a href="index.html">Home</a>
+          <div class="dropdown">
+            <button class="dropbtn">Dropdown 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="printingex1.html">Printing in Python</a>
+                <a href="printingex2.html">Lists</a>
+                <a href="printingex4.html">Loops</a>
+                <a href="printingex5.html">If-Else</a>
+                <a href="printingex3.html">Functions</a>
+            </div>
+          </div> 
+        </div>
+      </header>
+    <main>
+      <section>
+        <h2>Functions</h2>
+        <h3> A function in Python is a block of code that performs a specific task and can be reused throughout your program. Functions are defined using the def keyword, followed by the function name, a set of parentheses, and a colon. The function body is indented below the definition line.</h3>
+      </section>
+      <h2 style = text-align:center> Defining a Function in Python</h2>
+      <div align="center" ><iframe width="560" height="315" src="https://www.youtube.com/embed/u-OmVr_fT4s?start=43&end=144" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      <br>
+      <footer>
+        <script>
+            function validateAnswer8() {
+              var answer = document.getElementById("answer8").value.toLowerCase();
+              if (answer.trim() === "vroom") {
+                alert("Congratulations! You got the correct answer!");
+              } else {
+                alert("Sorry, the answer is incorrect. Please try again.");
+              }
+              return false;
+            }
+          </script>
+        </head>
+        <body>
+          <h1 style="text-align: left;"> def car():<br> &emsp; print("vroom") <br> car()</h1>
+          <form onsubmit="return validateAnswer8();">
+            <label for="answer"
+              style = "font-family: Arial, sans-serif;
+              font-size: 30px;
+              font-weight: bold;
+              color: #01010b;">What will this function output:</label>
+            <input style = "font-family: Arial, sans-serif;
+                  font-size: 30px;
+                  font-weight: bold;"
+          type="text" name="answer8" id="answer8">
+            <input style=" background-color: #1abc9c;
+                  color: #fff;
+                  text-decoration: none;
+                  padding: 10px 20px;
+                  border-radius: 5px;
+                  display: inline-block;
+                  border: none;
+                  cursor: pointer;
+                  font-size: 18px;
+                  margin-top: 20px;" type="submit" value="Submit">
+          </form>
+      </footer>
+      <br>
+      <h2 style = text-align:center> Defining a Function with Parameters</h2>
+      <div align="center" ><iframe width="560" height="315" src="https://www.youtube.com/embed/u-OmVr_fT4s?start=149&end=531" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      <br>
+      <footer>
+        <script>
+            function validateAnswer9() {
+              var answer = document.getElementById("answer9").value.toLowerCase();
+              if (answer.trim() === "def car(keys,wheel)") {
+                alert("Congratulations! You got the correct answer!");
+              } else {
+                alert("Sorry, the answer is incorrect. Please try again.");
+              }
+              return false;
+            }
+          </script>
+        </head>
+        <body>
+          <h1> Define function car that takes in parameters "keys" and "wheel": </h1>
+          <form onsubmit="return validateAnswer9();">
+            <label for="answer"
+              style = "font-family: Arial, sans-serif;
+              font-size: 30px;
+              font-weight: bold;
+              color: #01010b;">   </label>
+            <input style = "font-family: Arial, sans-serif;
+                  font-size: 30px;
+                  font-weight: bold;"
+          type="text" name="answer9" id="answer9">
+            <input style=" background-color: #1abc9c;
+                  color: #fff;
+                  text-decoration: none;
+                  padding: 10px 20px;
+                  border-radius: 5px;
+                  display: inline-block;
+                  border: none;
+                  cursor: pointer;
+                  font-size: 18px;
+                  margin-top: 20px;" type="submit" value="Submit">
+          </form>
+      </footer>
+      <br>
+      <h2 style = text-align:center> Function Scope</h2>
+      <div align="center" ><iframe width="560" height="315" src="https://www.youtube.com/embed/u-OmVr_fT4s?start=1152&end=1458" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      <br>
+      <footer>
+        <script>
+            function validateAnswer10() {
+              var answer = document.getElementById("answer10").value.toLowerCase();
+              if (answer.trim() === "vibe") {
+                alert("Congratulations! You got the correct answer!");
+              } else {
+                alert("Sorry, the answer is incorrect. Please try again.");
+              }
+              return false;
+            }
+          </script>
+        </head>
+        <body>
+          <h1 style="text-align: left;"> word="vibe"<br> Def cool_word(): <br> &emsp; word="chair"<br> print(word) </h1>
+          <form onsubmit="return validateAnswer10();">
+            <label for="answer"
+              style = "font-family: Arial, sans-serif;
+              font-size: 30px;
+              font-weight: bold;
+              color: #01010b;"> What word will be displayed:</label>
+            <input style = "font-family: Arial, sans-serif;
+                  font-size: 30px;
+                  font-weight: bold;"
+          type="text" name="answer10" id="answer10">
+            <input style=" background-color: #1abc9c;
+                  color: #fff;
+                  text-decoration: none;
+                  padding: 10px 20px;
+                  border-radius: 5px;
+                  display: inline-block;
+                  border: none;
+                  cursor: pointer;
+                  font-size: 18px;
+                  margin-top: 20px;" type="submit" value="Submit">
+          </form>
+      </footer>
+      <br>
+      <h2 style = text-align:center> Recursive Functions</h2>
+      <div align="center" ><iframe width="560" height="315" src="https://www.youtube.com/embed/ivl5-snqul8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      <br>
+      <footer>
+        <script>
+            function validateAnswer11() {
+              var answer = document.getElementById("answer11").value.toLowerCase();
+              if (answer.trim() === "never") {
+                alert("Congratulations! You got the correct answer!");
+              } else {
+                alert("Sorry, the answer is incorrect. Please try again.");
+              }
+              return false;
+            }
+          </script>
+        </head>
+        <body>
+          <h1 style="text-align: left;"> def walk():<br>&emsp; walk()<br>walk()</h1>
+          <form onsubmit="return validateAnswer11();">
+            <label for="answer"
+              style = "font-family: Arial, sans-serif;
+              font-size: 30px;
+              font-weight: bold;
+              color: #01010b;">  When will this function end:</label>
+            <input style = "font-family: Arial, sans-serif;
+                  font-size: 30px;
+                  font-weight: bold;"
+          type="text" name="answer11" id="answer11">
+            <input style=" background-color: #1abc9c;
+                  color: #fff;
+                  text-decoration: none;
+                  padding: 10px 20px;
+                  border-radius: 5px;
+                  display: inline-block;
+                  border: none;
+                  cursor: pointer;
+                  font-size: 18px;
+                  margin-top: 20px;" type="submit" value="Submit">
+          </form>
+      </footer>
+    </main>
+
+    <footer>
+      
+    
+        <p></p>
+    
+    </footer>
+
+  </body>
+</html>

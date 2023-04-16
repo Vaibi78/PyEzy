@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Printing in Python</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel = "icon" type="snake/png" href = "snake.png" />
+
+  </head>
+  <body>
+    <header>
+        <h1>PyEzy</h1>
+        <div class="navbar">
+          <a href="index.html">Home</a>
+          <div class="dropdown">
+            <button class="dropbtn">Dropdown 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="printingex1.html">Printing in Python</a>
+                <a href="printingex2.html">Lists</a>
+                <a href="printingex4.html">Loops</a>
+                <a href="printingex5.html">If-Else</a>
+                <a href="printingex3.html">Functions</a>
+            </div>
+          </div> 
+        </div>
+      </header>
+    
+    <main>
+      <section>
+        <h2>Printing in Python</h2>
+        <h3>Printing in Python is accomplished using the print() function. The print() function allows you to display text, variables, and expressions on the console or in a file.</h3>
+      </section>
+      <h2 style = text-align:center> Printing Hello World</h2>
+      <div align="center" ><iframe width="580" height="315"  src="https://www.youtube.com/embed/i83VkP0LHPI?start=30&end=143" title="YouTube video player" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      <footer>
+      <script>
+        function validateAnswer() {
+          var answer = document.getElementById("answer").value.toLowerCase();
+          if (answer.trim() === "hello") {
+            alert("Congratulations! You got the correct answer!");
+          } else {
+            alert("Sorry, the answer is incorrect. Please try again.");
+          }
+          return false;
+        }
+      </script>
+    </head>
+    <body>
+      <h3 style="font-family: Arial, sans-serif;
+      font-size: 30px; "> Fill in the blank to print "Hello World" using Python:</h3><br>
+      <form onsubmit="return validateAnswer();">
+        <p1>
+        <label for="answer"
+        style = "font-family: Arial, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        color: #01010b;">
+        print("____ World")</label>
+        <input 
+        style = "font-family: Arial, sans-serif;
+        font-size: 30px;
+        font-weight: bold;" 
+        type="text" name="answer" id="answer">
+        <input 
+        style=" background-color: #1abc9c;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        display: inline-block;
+        border: none;
+        cursor: pointer;
+        font-size: 18px;
+        margin-top: 20px;" 
+        type="submit" value="Submit"> </p1>
+        
+      </form>
+    </footer>
+    <br>
+    <h2 style = text-align:center> Variables in Python</h2>
+      <div align="center" ><iframe width="580" height="315"  src="https://www.youtube.com/embed/i83VkP0LHPI?start=186&end=426" title="YouTube video player" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><br>
+      <footer>
+      <script>
+        function validateAnswer1() {
+          var answer = document.getElementById("answer1").value;
+          if (answer.trim() === "20") {
+            alert("Congratulations! You got the correct answer!");
+          } else {
+            alert("Sorry, the answer is incorrect. Please try again.");
+          }
+          return false;
+        }
+      </script>
+    </head>
+    <body>
+      <h1>If x = 20, what is the expected output? </h1>
+      <form onsubmit="return validateAnswer1();">
+        <label 
+        for="answer" style = "font-family: Arial, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        color: #01010b;">print(x)</label>
+        <input style = "font-family: Arial, sans-serif;
+        font-size: 30px;
+        font-weight: bold;" 
+        type="text" name="answer1" id="answer1">
+        <input style=" background-color: #1abc9c;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        display: inline-block;
+        border: none;
+        cursor: pointer;
+        font-size: 18px;
+        margin-top: 20px;"type="submit" value="Submit">
+      </form>
+    </footer> <br>
+        
+    <h2 style = text-align:center> String Concatination</h2>
+      <div align="center" ><iframe width="580" height="315"  src="https://www.youtube.com/embed/i83VkP0LHPI?start=435&end=540" title="YouTube video player" frameborder="2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      <footer>
+      <script>
+        function validateAnswer3() {
+          var answer = document.getElementById("answer3").value.toLowerCase();
+          if (answer.trim() === "print('model:',c_mod)" ) {
+            alert("Congratulations! You got the correct answer!");
+          } else {
+            alert("Sorry, the answer is incorrect. Please try again.");
+          }
+          return false;
+        }
+      </script>
+    </head>
+    <body>
+      <h1 style="text-align: left;"> c_mod = "Ford" <br>
+      Use concatination to print the statement needed to display(use single quotes): </h1>
+      <form onsubmit="return validateAnswer3();">
+        <label for="answer"
+        style = "font-family: Arial, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        color: #01010b;">Model:Ford</label>
+        <input style = "font-family: Arial, sans-serif;
+        font-size: 30px;
+        font-weight: bold;"type="text" name="answer3" id="answer3">
+        <input style=" background-color: #1abc9c;
+        color: #fff;
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        display: inline-block;
+        border: none;
+        cursor: pointer;
+        font-size: 18px;
+        margin-top: 20px;"type="submit" value="Submit">
+      </form>
+    </footer>
+    <br>
+    <h2 style = text-align:center> Formatted Strings in Python</h2>
+      <div align="center" ><iframe width="560" height="315" src="https://www.youtube.com/embed/nghuHvKLhJA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+        <br>
+      <footer>
+        <script>
+            function validateAnswer4() {
+              var answer = document.getElementById("answer4").value.toLowerCase();
+              if (answer.trim() === "print(f'there are {a} months in a {b}')") {
+                alert("Congratulations! You got the correct answer!");
+              } else {
+                alert("Sorry, the answer is incorrect. Please try again.");
+              }
+              return false;
+            }
+          </script>
+        </head>
+        <body>
+          <h1 style="text-align: left;"> <br> a = 12 <br> b = "year"<br>
+            Use a single quoted f-string to produce: </h1>
+          <form onsubmit="return validateAnswer4();">
+            <label for="answer"
+            style = "font-family: Arial, sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        color: #01010b;">There are 12 months in a year</label>
+            <input style = "font-family: Arial, sans-serif;
+            font-size: 30px;
+            font-weight: bold;"type="text" name="answer4" id="answer4">
+            <input style=" background-color: #1abc9c;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            margin-top: 20px;" type="submit" value="Submit">
+          </form>
+    </footer>
+    </main>
+    <br>
+    <footer>
+    <p></p>
+    
+
+    
+    </footer>
+
+  </body>
+</html>

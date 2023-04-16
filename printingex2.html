@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lists</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel = "icon" type="snake/png" href = "snake.png" />
+  </head>
+  <body>
+    <header>
+        <h1>PyEzy</h1>
+        <div class="navbar">
+          <a href="index.html">Home</a>
+          <div class="dropdown">
+            <button class="dropbtn">Dropdown 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="printingex1.html">Printing in Python</a>
+                <a href="printingex2.html">Lists</a>
+                <a href="printingex4.html">Loops</a>
+                <a href="printingex5.html">If-Else</a>
+                <a href="printingex3.html">Functions</a>
+            </div>
+          </div> 
+        </div>
+      </header>
+    <main>
+      <section>
+        <h2>Lists</h2>
+        <h3>A list in Python is a collection of items that are ordered and mutable (i.e., can be changed). Lists are created by enclosing a comma-separated sequence of values within square brackets ([]). The elements of a list can be of any data type, including other lists.</h3>
+      </section>
+      <h2 style = text-align:center> Creating Lists in Python</h2>
+      <div align="center" ><iframe width="560" height="315" src="https://www.youtube.com/embed/9OeznAkyQz4?start=18&end=233" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      <footer>
+        <script>
+            function validateAnswer5() {
+              var answer = document.getElementById("answer5").value.toLowerCase();
+              if (answer.trim() === "3") {
+                alert("Congratulations! You got the correct answer!");
+              } else {
+                alert("Sorry, the answer is incorrect. Please try again.");
+              }
+              return false;
+            }
+          </script>
+        </head>
+        <body>
+          <h1 style="text-align: left;">a=[1,2,3]</h1>
+          <form onsubmit="return validateAnswer5();">
+            <label for="answer"
+              style = "font-family: Arial, sans-serif;
+              font-size: 30px;
+              font-weight: bold;
+              color: #01010b;">What is value of len(a):</label>
+            <input style = "font-family: Arial, sans-serif;
+                  font-size: 30px;
+                  font-weight: bold;"
+          type="text" name="answer5" id="answer5">
+            <input style=" background-color: #1abc9c;
+                  color: #fff;
+                  text-decoration: none;
+                  padding: 10px 20px;
+                  border-radius: 5px;
+                  display: inline-block;
+                  border: none;
+                  cursor: pointer;
+                  font-size: 18px;
+                  margin-top: 20px;" type="submit" value="Submit">
+          </form>
+      </footer>
+      <br>
+      <h2 style = text-align:center> Adding/Removing from Lists</h2>
+      <div align="center" ><iframe width="560" height="315" src="https://www.youtube.com/embed/9OeznAkyQz4?start=841&end=1014" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      <br>
+      <footer>
+        <script>
+            function validateAnswer6() {
+              var answer = document.getElementById("answer6").value.toLowerCase();
+              if (answer.trim() === "a=[1,3]") {
+                alert("Congratulations! You got the correct answer!");
+              } else {
+                alert("Sorry, the answer is incorrect. Please try again.");
+              }
+              return false;
+            }
+          </script>
+        </head>
+        <body>
+          <h1 style="text-align: left;">a=[1,2,3]<br> What values remain after:</h1>
+          <form onsubmit="return validateAnswer6();">
+            <label for="answer"
+              style = "font-family: Arial, sans-serif;
+              font-size: 30px;
+              font-weight: bold;
+              color: #01010b;">a.remove(2)</label>
+            <input style = "font-family: Arial, sans-serif;
+                  font-size: 30px;
+                  font-weight: bold;"
+          type="text" name="answer6" id="answer6">
+            <input style=" background-color: #1abc9c;
+                  color: #fff;
+                  text-decoration: none;
+                  padding: 10px 20px;
+                  border-radius: 5px;
+                  display: inline-block;
+                  border: none;
+                  cursor: pointer;
+                  font-size: 18px;
+                  margin-top: 20px;" type="submit" value="Submit">
+          </form>
+      </footer>
+      <br>
+      <h2 style = text-align:center>Iterating through a List</h2>
+      <div align="center" ><iframe width="560" height="315" src="https://www.youtube.com/embed/9OeznAkyQz4?start=239&end=428" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+      <br>
+      <footer>
+        <script>
+            function validateAnswer7() {
+              var answer = document.getElementById("answer7").value.toLowerCase();
+              if (answer.trim() === "print(my_list[1:3])") {
+                alert("Congratulations! You got the correct answer!");
+              } else {
+                alert("Sorry, the answer is incorrect. Please try again.");
+              }
+              return false;
+            }
+          </script>
+        </head>
+        <body>
+          <h1 style="text-align: left;">my_list=[1,2,3,4]</h1>
+          <form onsubmit="return validateAnswer7();">
+            <label for="answer"
+              style = "font-family: Arial, sans-serif;
+              font-size: 30px;
+              font-weight: bold;
+              color: #01010b;">Print 2 and 3 using start, stop:</label>
+            <input style = "font-family: Arial, sans-serif;
+                  font-size: 30px;
+                  font-weight: bold;"
+          type="text" name="answer7" id="answer7">
+            <input style=" background-color: #1abc9c;
+                  color: #fff;
+                  text-decoration: none;
+                  padding: 10px 20px;
+                  border-radius: 5px;
+                  display: inline-block;
+                  border: none;
+                  cursor: pointer;
+                  font-size: 18px;
+                  margin-top: 20px;" type="submit" value="Submit">
+          </form>
+      </footer>
+      <br>
+    </main>
+    
+    <footer>
+      
+    
+        <p></p>
+    
+    </footer>
+
+  </body>
+</html>
